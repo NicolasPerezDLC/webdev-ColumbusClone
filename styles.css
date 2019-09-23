@@ -1,1 +1,36 @@
-/* CSS code  */
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: #10243B;
+    block-size: 50px;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    padding: 0px 0px 25px 0px;
+}
+
+.navlog {
+    height: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 5px;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+li {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 5px 5px ;
+    font-size: 12.5px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
