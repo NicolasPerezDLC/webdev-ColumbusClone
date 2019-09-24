@@ -2,35 +2,58 @@ body {
     margin: 0px;
 }
 
-nav {
+na{
     background-color: #10243B;
     block-size: 50px;
-    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
-    padding: 0px 0px 25px 0px;
+    padding: 25px px 0px 0px;
+    vertical-align: middle;
 }
 
-.navlog {
-    height: 500px;
+img {
+    vertical-align: middle;
 }
 
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 5px 5px;
     display: inline;
     font-family: 'Open Sans', sans-serif;
 }
 
-
-li {
+ul li {
+    padding: 5px 10px;
     display: inline;
-    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+}
+
+
+#one {
+    display: inline;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
-    padding: 5px 5px ;
-    font-size: 12.5px;
+    padding: 20px 24vw 20px 0px;
+    font-size: 11px;
     color: white;
     text-transform: uppercase;
-    
+    background-color: #10243B;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+
 }
 
+#two {
+    display: inline;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    padding: 20px 24vw 20px 0px;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #10243B;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    
 
+}
+
+#blue {
+
+
+}
