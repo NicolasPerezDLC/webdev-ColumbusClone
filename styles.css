@@ -2,11 +2,12 @@ body {
     margin: 0px;
 }
 
-na{
+nav {
     background-color: #10243B;
     block-size: 50px;
     padding: 25px px 0px 0px;
     vertical-align: middle;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 
 img {
@@ -30,30 +31,60 @@ ul li {
     display: inline;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
-    padding: 20px 24vw 20px 0px;
-    font-size: 11px;
+    padding: 15px 24vw 20px 0px;
+    font-size: 14.5px;
     color: white;
     text-transform: uppercase;
-    background-color: #10243B;
-    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    text-shadow: rgb(51, 51, 51) 0px 2px 3px;
 
 }
 
 #two {
     display: inline;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: bold;
-    padding: 20px 24vw 20px 0px;
-    font-size: 11px;
-    color: white;
+    padding: 15px 0px 20px 0px;
+    position: relative;
+    font-size: 12.3px;
+    color: #a3dde8;
+    text-shadow: rgb(51, 51, 51) 0px 2px 3px; 
     text-transform: uppercase;
-    background-color: #10243B;
-    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
     
 
 }
 
 #blue {
+    display: inline;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    padding: 15px 0px 20px 0px;
+    position: relative;
+    font-size: 12.3px;
+    color: white;
+    text-shadow: rgb(51, 51, 51) 0px 2px 3px; 
+    text-transform: uppercase;
+    background-color: #005983;
 
+}
 
+#blue2 {
+    display: inline;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 1px; 
+    background-color: #005983;
+}
+
+.white {
+    background-color: white;
+    width: 2px;
+    height: 50px;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
