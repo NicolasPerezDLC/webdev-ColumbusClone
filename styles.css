@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0px;
 }
@@ -76,15 +80,66 @@ ul li {
     background-color: #005983;
 }
 
-.white {
-    background-color: white;
-    width: 2px;
-    height: 50px;
-}
 
 #hero {
+    background-image: url(images/fans.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* explore */
+
+#explore {
+    height: 400px;
+    width: 100vw;
+    background-color: #10243B;
+}
+
+#header {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+}
+
+#exploresection {
+    height: 300px;
+    width: 100vw;
+
+}
+
+.explorebox {
+    height: 300px;
+    width: 24.5%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#ccnn {
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#patriot {
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#media {
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#colleges {
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
 }
