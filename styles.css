@@ -1,6 +1,6 @@
 * {
-    background-color: #10243B;
-    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    /* background-color: #10243B;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png); */
 }
 
 body {
@@ -80,10 +80,11 @@ ul li {
 
 #hero {
     background-image: url(images/fans.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
 
 /* explore */
@@ -97,14 +98,18 @@ ul li {
 #header {
     text-align: center;
     vertical-align: middle;
-    color: white;
+    color:  white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
-    border-bottom: 8px solid #a3dde8;
+    border-top-color: #10243B;
+    border-top-style: solid;
+    border-top-width: 19.25px;
+    border-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 
 #exploresection {
+    border-top: 8px solid #a3dde8;
     height: 300px;
     width: 100vw;
 }
@@ -114,18 +119,19 @@ ul li {
     width: 24.5%;
     display: inline-block;
     vertical-align: middle;
+    background-color: white;
 }
 
 #ccnn {
     background-image: url(images/ccnn.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
 #patriot {
     background-image: url(images/patriots\ plaza.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
 }
 
 #media {
@@ -137,5 +143,112 @@ ul li {
 #colleges {
     background-image: url(images/college.png);
     background-size: cover;
-    background-position: center;
+    background-position: middle;
+}
+
+/* CCHS AT A GLANCE */
+
+#CCHS {
+    height: 850px;
+    width: 100vw;
+    background-color: white;
+}
+
+#header2 {
+    color: #10243B;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow' , sans-serif;
+    margin-top: 0;
+}
+
+#imagessection {
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+    margin: 0px 0px 70px 0px;
+    
+}
+
+.glance {
+    height: 400px;
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+}
+
+#money {
+    background-image: url(images/carosel\ money.jpg);
+    background-size: cover;
+    background-position: middle;
+}
+
+#hat {
+    background-image: url(images/carosel\ graduation.jpg);
+    background-size: cover;
+    background-position: middle;
+}
+
+#book {
+    background-image: url(images/book.jpg);
+    background-size: cover;
+    background-position: middle;
+}
+
+#teach {
+    background-image: url(images/carosel\ teaching.jpg);
+    background-size: cover;
+    background-position: middle;
+}
+
+
+.headtext {
+    color: #ca0d33;
+    font: 30px 'PT Sans Narrow' , sans-serif;
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.subtext {
+    color: #333333;
+    font: 20px 'Open Sans', sans-serif;
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#newspace {
+    height: 200px;
+    width: 100vw;
+    background-color: white;
+    border-left-color: #dfd2b0;
+    border-left-style: solid;
+    border-left-width: 1px; 
+}
+
+#bluebox {
+    height: 150px;
+    width: 80vw;
+    background-color: #10243B;
+    margin: 20px 0px 0px 185px;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+
+}
+
+#bluetext {
+    color: white;
+    font-style: 'PT Sans Narrow' , sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 50px;
+    padding: 15px 20px 30px;
+    text-align: center;
 }
