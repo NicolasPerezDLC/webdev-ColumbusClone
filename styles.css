@@ -112,6 +112,7 @@ ul li {
     border-top: 8px solid #a3dde8;
     height: 300px;
     width: 100vw;
+    margin: 0 0px;
 }
 
 .explorebox {
@@ -152,6 +153,7 @@ ul li {
     height: 850px;
     width: 100vw;
     background-color: white;
+    margin: 0 0px;
 }
 
 #header2 {
@@ -169,7 +171,6 @@ ul li {
     width: 100vw;
     background-color: white;
     margin: 0px 0px 70px 0px;
-    
 }
 
 .glance {
@@ -228,9 +229,9 @@ ul li {
     height: 200px;
     width: 100vw;
     background-color: white;
-    border-left-color: #dfd2b0;
-    border-left-style: solid;
-    border-left-width: 1px; 
+    border-bottom-color: #dfd2b0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
 }
 
 #bluebox {
@@ -251,4 +252,63 @@ ul li {
     margin: 0px 0px 50px;
     padding: 15px 20px 30px;
     text-align: center;
+}
+
+/* Schools */
+
+#school {
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/ng.png);
+}
+
+#schooltext {
+    font-style: 'PT Sans Narrow' , sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#schoolbox {
+    vertical-align: middle;
+    text-align: center;
+    padding: 100px 200px 200px 200px;
+}
+
+.schools {
+    height: 400px;
+    width: 100vw;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+}
+
+#nc {
+    background-image: url(images/northcarolina.png);
+    background-size: initial;
+    background-position: middle;
+    background: no-repeat;
+}
+
+#um {
+    background-image: url(images/um.png);
+    background-size: initial;
+    background-position: middle;
+    background: no-repeat;
+}
+
+#yale {
+    background-image: url(images/yale.png);
+    background-size: initial;
+    background-position: middle;
+    background: no-repeat;
+}
+
+#mit {
+    background-image: url(images/mit.png);
+    background-size: initial;
+    background-position: middle;
+    background: no-repeat;
 }
