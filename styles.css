@@ -254,61 +254,164 @@ ul li {
     text-align: center;
 }
 
-/* Schools */
+/* courses */
 
-#school {
-    height: 400px;
-    width: 100vw;
-    background-color: white;
+#coursesofferedtext {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #10243B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#coursesofferedbox {
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    box-sizing: content-box;
+    width: 80%;
+    margin: auto;
+} 
+
+/* graduate */
+
+#graduatediv {
+    height: 5px;
+    width: 100%;
+    color: black;
+    border-top-color: burlywood;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#graduateheader {
+    text-align: center;
+    font-size: 12px;
+    text-transform: none;
+    color: #00344C;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+#graduatesection {
+    height: 250px;
+    width: 100%;
+}
+
+.graduateblock {
+    height: 150px;
+    width: 19.5%;
+    display: inline-block;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/ng.png);
-}
-
-#schooltext {
-    font-style: 'PT Sans Narrow' , sans-serif;
-    font-size: 16px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#schoolbox {
-    vertical-align: middle;
-    text-align: center;
-    padding: 100px 200px 200px 200px;
-}
-
-.schools {
-    height: 400px;
-    width: 100vw;
-    display: inline-block;
-    vertical-align: middle;
-    background-color: white;
-}
-
-#nc {
-    background-image: url(images/northcarolina.png);
-    background-size: initial;
-    background-position: middle;
-    background: no-repeat;
-}
-
-#um {
-    background-image: url(images/um.png);
-    background-size: initial;
-    background-position: middle;
-    background: no-repeat;
-}
-
-#yale {
-    background-image: url(images/yale.png);
-    background-size: initial;
-    background-position: middle;
-    background: no-repeat;
 }
 
 #mit {
     background-image: url(images/mit.png);
-    background-size: initial;
-    background-position: middle;
-    background: no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#nc {
+    background-image: url(images/northcarolina.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#um {
+    background-image: url(images/um.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#wf {
+    background-image: url(images/wakeforest.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#yale {
+    background-image: url(images/yale.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #10243B;
+    color: white;
+}
+
+#footernav {
+    width: 100%;
+    height: 50px;
+}
+
+#leftfoot,
+#rightfoot {
+    display: inline-block;
+    padding-top: 12.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#rightfoot {
+    float: right;
+    padding-top: 11px;
+}
+
+#footercontent {
+    height: 340px;
+    width: 100%;
+    background-color: #333;
+}
+
+#cchscontact{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+#sitemap{
+    padding-right: 10%;
+}
+
+.right {
+    float: right;
+}
+
+#mission {
+    width: 60%;
+    height: 250px;
+    margin: 0px;
+    font-style: italic;
+    margin-bottom: 50px;
+    opacity: .5;
+    font-size: .875em;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #0088cc;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#footerpic{
+    color:  #0088cc;
+}
+
+#seal{
+    float: right;
+    padding-top: 5%;
+    margin-left: 10%;
 }
